@@ -1,0 +1,45 @@
+/* resets */
+body,
+p {
+  margin: 0;
+}
+
+.question {
+  margin: 20px;
+}
+
+.coin-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coin {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: lightgrey;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid grey;
+  margin: 10px;
+}
+
+.coin-name {
+  font-size: 20px;
+}
+
+.lightBulb {
+  background-color: rgb(102, 102, 102);
+  color: white;
+  width: 125px;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  /* display: none; */
+}
+
+.light-bulb-button {
+  margin: 53px 0 0 0;
+}

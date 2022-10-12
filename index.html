@@ -8,6 +8,44 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <main>
+      <section class="vending-machine question">
+        <p class="total">Total: $0.00</p>
+        <div>
+          <button class="cola">Lime Cola $2.00</button>
+          <button class="peanuts">Salted Peanuts $3.00</button>
+          <button class="chocolate">Chocolate Bar $4.00</button>
+          <button class="gummies">Friut Gummies $6.00</button>
+        </div>
+      </section>
+      <section class="make-money question">
+        <form class="make-money-form">
+          <label for="number-of-coins">How many?</label>
+          <input
+            type="number"
+            name="number-of-coins"
+            id="number-of-coins"
+            placeholder="0"
+          />
+          <label for="which-coin">Which coin?</label>
+          <select name="which-coin" id="which-coin">
+            <option value="penny">Penny</option>
+            <option value="nickel">Nickel</option>
+            <option value="dime">Dime</option>
+            <option value="quarter">Quarter</option>
+          </select>
+          <button class="make-money-button">Make Money!</button>
+          <div class="coin-container"></div>
+        </form>
+      </section>
+      <section class="light-bulb question">
+        <div class="lightBulb">Light Bulb</div>
+        <button id="on">On</button>
+        <button id="off">Off</button>
+        <button id="toggle">Toggle</button>
+        <button id="end">End</button>
+      </section>
+    </main>
     <!-- keep Js at the bottom -->
     <script src="/script.js"></script>
   </body>
